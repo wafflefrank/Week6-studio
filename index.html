@@ -1,10 +1,49 @@
----
-title: 藝術展覽購票網
-layout: ./app/layout.ejs
-engine: ejs
-current: index
----
-<!-- banner -->
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>藝術展覽購票網</title>
+    <!-- font-awsome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!-- google-icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <!-- google-font -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style/all.css">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light py-28 py-md-7 border border-1 border-gray">
+      <div class="container d-flex justify-content-end align-items-center position-relative">
+        <h1 class="d-flex align-items-center position-absolute top-50 start-50 translate-middle ">
+          <a href="index.html" class="navbar-brand text-primary fs-4 fz-md-larger p-0">EXHIBINECTION</a>
+        </h1>
+        <!-- 登入 / 註冊 -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item me-md-32">
+              <a class="nav-link p-0  link-secondary" href="#">Sign in</a>
+            </li>
+            <li class="nav-item me-md-32">
+              <a class="nav-link p-0  link-secondary" href="#">Sign up</a>
+            </li>
+          </ul>
+        </div>
+        <!-- 購物車 -->
+        <button type="button" class="btn  d-flex position-relative  p-0" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" >
+          <span class="material-icons">confirmation_number</span>
+          <span class="position-absolute top-15 start-75 translate-middle badge rounded-pill bg-secondary">3</span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- banner -->
 <div class="banner w-100 d-flex align-items-center bg-attachment-fixed imgCover ">
   <div class="container">
       <div class="row">
@@ -145,3 +184,26 @@ current: index
         </div>
     </div>
   </div>
+
+    <footer class="py-4 py-md-7">
+      <div class="container d-flex align-items-center ">
+        <div class="d-flex align-items-center">
+        <p class="fs-4 me-3 ">EXHIBINECTION</p>
+        <p >© 2020. All Rights Reserved.</p>
+      </div>
+        <ul class="list-unstyled d-flex align-items-center ms-auto">
+          <li class="me-4">
+            <a href="#" class="link-gray">Sign in</a>
+          </li>
+          <li class="me-4">
+            <a href="#" class="link-gray">Sign up</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+  </body>
+
+</html>
