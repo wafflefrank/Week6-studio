@@ -17,3 +17,21 @@
 .card-text{
     font-family:"Roboto", "sans-serif";
 }
+.liveReview{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 482px;
+}
+.mask{
+    background-color: #190014CC;
+}
+.swiper{
+    width: 100%;
+    img{
+    height: 350px;
+    }
+    & .card{
+        border: none;
+    }
+}

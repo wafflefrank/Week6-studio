@@ -261,6 +261,7 @@ $spacers: (
   4: $spacer * 1.5,   //24px
   28:$spacer * 1.75, //28px
   32:$spacer * 2, // 32px
+  38:$spacer * 2.375, //38px
   40:$spacer * 2.5, //40px
   5: $spacer * 3, //48px
   60: $spacer * 3.75,//60px
@@ -486,7 +487,7 @@ $display-font-sizes: (
   3: 4rem,
   4: 3.5rem,
   5: 3rem,
-  6: 2.5rem
+  6: 2.5rem,
 ) !default;
 
 $display-font-weight: 300 !default;
