@@ -15030,7 +15030,7 @@ body {
   font-family: 'Noto Sans TC', "Roboto" sans-serif;
 }
 
-body h1, body .h1, body h2, body .h2, body h3, body .h3, body h4, body .h4, body h5, body .h5, body h6, body .h6, body p {
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p {
   margin: 0;
   line-height: 1.5;
 }
@@ -15098,6 +15098,20 @@ ul, li {
 
 .swiper .card {
   border: none;
+}
+
+.subscribe {
+  background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/wladislaw-peljuchno-Y_f1aHpR1tc-unsplash.jpg?raw=true");
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.offcanvas {
+  top: 11%;
+  height: 70%;
+  max-width: 540px;
 }
 
 /*# sourceMappingURL=all.css.map */
